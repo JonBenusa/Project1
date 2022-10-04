@@ -27,10 +27,13 @@
         </p>
         <img src=".\locust.jpg" alt="Example of what the locust data looks like">
 
-		<h2> Microprocessor Programing </h2>
+		<h2> Database Export Alarm </h2>
 		<p> 
             A particular customer was having issues with exporting large amounts of data from one fairly flexible database to a 
-			seperate more rigid database.
+			seperate more rigid database. Occasionally the exporting process would get help up for hours until someone fixed the issue.
+			If this lag was found sooner, it wasn't a big deal, but in the cases where it took a while to notice it would take over a day
+			to correct. My task was to write a script that read from all of the export log files (there where 8 of them) without locking the 
+			logs and send an alarm to someone who could fix the issue if the data export ever took more than 30 seconds.
         </p>
         <img src=".\headshot.jpg" alt="Headshot">
 		
